@@ -4,7 +4,10 @@ import styles from './components.module.css'
 const Navbar = () => {
     return ( 
         <nav className={styles.navbar}>
-            <Link href={'/'}>WILD BLOOM</Link>
+            <Link href={'/'} className={styles.logo}>
+                <span className={styles.wild}>Wild</span>
+                <span className={styles.bloom}>Bloom</span>
+            </Link>
             <div className={styles.container}>
                 <Link href={'/shop'}>Shop</Link>
                 <Link href={'/newArrivals'}>New Arrivals</Link>

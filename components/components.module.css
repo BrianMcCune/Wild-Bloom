@@ -3,16 +3,30 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: rgb(10, 10, 10);
     height: 64px;
     padding: 0 1.5rem;
-}
-
-.navbar > Link {
-    margin-left: 50px;
 }
 
 .container {
     display: flex;
     gap: 1.25rem;
+    color: rgb(197, 160, 89);
+    font-size: 0.9rem;
+}
+
+.logo {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.wild {
+    color: rgb(233, 30, 129);
+}
+
+.bloom {
+    color: rgb(0, 168, 150);
 }
