@@ -5,20 +5,17 @@
   --foreground: #171717;
   --font-primary: 'Inter', system-ui, sans-serif;
   --font-secondary: 'Playfair Display', serif;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Brand Colors */
+  --color-primary: rgb(233, 30, 129);   /* Pink */
+  --color-secondary: rgb(242, 232, 207); /* White */
+  --color-accent: rgb(197, 160, 89);    /* Gold */
+  --color-bg-dark: rgb(10, 10, 10);     /* Black */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Typography Scale */
+  --font-size-logo: 1.5rem;
+  --font-size-nav: 0.9rem;
+  --font-size-button: 0.85rem;
 }
 
 body {
